@@ -55,10 +55,9 @@ const Section2 = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 mx-[30px] sm:mx-[50px] mt-[40px] sm:mt-[70px] max-h-[630px] z-10">
-        <img src={img} className="max-h-[630px]" />
+      <div className="flex-1 mt-[40px] sm:mt-[70px] max-h-[660px] w-full">
+        <img src={img} className="max-h-[660px] w-full object-cover" />
       </div>
-      <div className="bg-white w-full h-[50px] sm:h-[100px] md:h-[150px] absolute bottom-0"></div>
     </div>
   );
 };
