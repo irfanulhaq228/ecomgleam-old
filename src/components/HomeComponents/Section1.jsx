@@ -4,8 +4,8 @@ import img from "../../assets/imgs/home-sec-1.png";
 
 const Section1 = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-8 sm:gap-14 lg:gap-10 pt-5 sm:pt-10 items-center lg:items-start justify-center">
-      <div className="flex-1 px-4 sm:px-0 lg:ps-[100px] pt-5 lg:pt-9 xl:pt-14 lg:max-w-[750px] flex flex-col items-center lg:items-start">
+    <div className="flex flex-col lg:flex-row gap-8 sm:gap-14 lg:gap-10 pt-5 sm:pt-10 items-center lg:items-center justify-center">
+      <div className="flex-1 px-4 sm:px-0 lg:ps-[100px] pt-5 xl:pt-14 lg:max-w-[750px] flex flex-col items-center lg:items-start pb-2">
         <p className="uppercase text-[25px] sm:text-[30px] lg:text-[35px] xl:text-[40px] font-[800] sm:font-[900] text-[#585858] leading-snug text-center lg:text-start max-w-[600px]">
           All-in-one team for seamless eCommerce management
         </p>
