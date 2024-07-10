@@ -15,7 +15,7 @@ const Section2 = () => {
       </p>
       <div className="mt-[30px] w-full flex flex-col sm:flex-row justify-center gap-[25px] flex-wrap px-3">
         <div className="flex flex-col sm:flex-row gap-[25px] justify-center items-center sm:items-start">
-          <div className="bg-white rounded-[12px] w-[300px] flex flex-col items-center py-[25px] px-[30px]">
+          <div className="bg-white rounded-[12px] w-[95%] sm:w-[300px] flex flex-col items-center py-[25px] px-[30px]">
             <img src={svg1} />
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               Amazon Full Account Management Services
@@ -24,7 +24,7 @@ const Section2 = () => {
               Explore Services
             </button>
           </div>
-          <div className="bg-white rounded-[12px] w-[300px] flex flex-col items-center py-[25px] px-[30px]">
+          <div className="bg-white rounded-[12px] w-[95%] sm:w-[300px] flex flex-col items-center py-[25px] px-[30px]">
             <img src={svg1} />
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               Amazon Full Account Management Services
@@ -35,7 +35,7 @@ const Section2 = () => {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-[25px] justify-center items-center sm:items-start">
-          <div className="bg-white rounded-[12px] w-[300px] flex flex-col items-center py-[25px] px-[30px]">
+          <div className="bg-white rounded-[12px] w-[95%] sm:w-[300px] flex flex-col items-center py-[25px] px-[30px]">
             <img src={svg1} />
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               Amazon Full Account Management Services
@@ -44,7 +44,7 @@ const Section2 = () => {
               Explore Services
             </button>
           </div>
-          <div className="bg-white rounded-[12px] w-[300px] flex flex-col items-center py-[25px] px-[30px]">
+          <div className="bg-white rounded-[12px] w-[95%] sm:w-[300px] flex flex-col items-center py-[25px] px-[30px]">
             <img src={svg1} />
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               Amazon Full Account Management Services

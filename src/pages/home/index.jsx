@@ -5,6 +5,7 @@ import Section2 from "../../components/HomeComponents/Section2";
 import Section3 from "../../components/HomeComponents/Section3";
 import Section4 from "../../components/HomeComponents/Section4";
 import Section5 from "../../components/HomeComponents/Section5";
+import Section6 from "../../components/HomeComponents/Section6";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Section3 />
       {/* <Section4 /> */}
       <Section5 />
+      <Section6 />
     </>
   );
 };

@@ -17,7 +17,7 @@ const Section5 = () => {
         <div className="w-full max-w-[90%] lg:max-w-[950px] xl:max-w-[1100px] flex flex-col lg:flex-row items-center lg:items-start lg:gap-7">
           <img
             src={img1}
-            className="max-w-[350px] lg:max-w-[400px] xl:max-w-[500px]"
+            className="w-[100%] max-w-[350px] lg:max-w-[400px] xl:max-w-[500px]"
           />
           <div className="pt-[20px] lg:pt-[80px] xl:pt-[100px]">
             <p className="text-[20px] sm:text-[25px] md:text-[33px] font-[700] uppercase text-white text-center lg:text-start">
@@ -44,7 +44,7 @@ const Section5 = () => {
           </div>
           <img
             src={img2}
-            className="max-w-[350px] lg:max-w-[400px] xl:max-w-[600px]"
+            className="w-[100%] max-w-[350px] lg:max-w-[400px] xl:max-w-[600px]"
           />
         </div>
         <div className="hidden lg:block absolute top-[690px] xl:top-[800px]">
@@ -53,7 +53,7 @@ const Section5 = () => {
         <div className="w-full max-w-[90%] lg:max-w-[950px] xl:max-w-[1130px] flex flex-col lg:flex-row items-center lg:items-start lg:gap-7 lg:mt-[100px]">
           <img
             src={img3}
-            className="max-w-[350px] lg:max-w-[400px] xl:max-w-[550px]"
+            className="w-[100%] max-w-[350px] lg:max-w-[400px] xl:max-w-[550px]"
           />
           <div className="pt-[20px] xl:pt-[85px]">
             <p className="text-[20px] sm:text-[25px] md:text-[33px] font-[700] uppercase text-white text-center lg:text-start">
