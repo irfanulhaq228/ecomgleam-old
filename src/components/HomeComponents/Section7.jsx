@@ -10,8 +10,8 @@ import shopifyLogo from "../../assets/imgs/shopify-logo.png";
 
 const Section7 = () => {
   return (
-    <div className="py-10 px-4">
-      <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-center uppercase text-gray-800">
+    <div className="py-10 px-4 mt-[30px]">
+      <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-center uppercase text-[--heading-color]">
         Our Partners
       </p>
       <div className="flex overflow-x-auto pb-4 pt-8 gap-6 justify-start xl:justify-center items-center">
