@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
 import Home from "./pages/home";
+import Services from "./pages/services";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/services" element={<Services />} />
     </Routes>
     <Footer />
     </>
