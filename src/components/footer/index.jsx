@@ -37,7 +37,7 @@ const Footer = () => {
             <span className="mt-[-5px]">career@ecomgleam.com</span>
           </p>
         </p>
-        <p className="flex gap-1 mt-[10px] text-[12px] sm:text-[16px]">
+        <p className="flex gap-1 mt-[7px] sm:mt-[10px] text-[12px] sm:text-[16px]">
           <img src={locationIcon} className="w-[19px] h-[19px] sm:w-[22px] sm:h-[22px]" />
           <p className="flex flex-col">
             <span>Dubai, UAE</span>

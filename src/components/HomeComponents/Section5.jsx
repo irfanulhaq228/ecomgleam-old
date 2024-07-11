@@ -9,7 +9,7 @@ import line2 from "../../assets/imgs/Home-sec-5-line-2.png";
 
 const Section5 = () => {
   return (
-    <div className="bg-[--main-color] pt-[40px] mt-[80px]">
+    <div className="bg-[--main-color] pt-[40px]">
       <p className="text-[25px] sm:text-[30px] md:text-[40px] font-[700] text-center uppercase text-white">
         Our Working process
       </p>
