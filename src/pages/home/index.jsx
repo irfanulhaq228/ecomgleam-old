@@ -10,6 +10,7 @@ import Section7 from "../../components/HomeComponents/Section7";
 import Section8 from "../../components/HomeComponents/Section8";
 import Section9 from "../../components/HomeComponents/Section9";
 import Section10 from "../../components/HomeComponents/Section10";
+import Section11 from "../../components/HomeComponents/Section11";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <Section8 />
       <Section9 />
       <Section10 />
+      <Section11 />
     </>
   );
 };
