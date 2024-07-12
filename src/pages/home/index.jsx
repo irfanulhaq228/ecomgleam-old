@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import Section1 from "../../components/HomeComponents/Section1";
 import Section2 from "../../components/HomeComponents/Section2";
@@ -13,6 +13,9 @@ import Section10 from "../../components/HomeComponents/Section10";
 import Section11 from "../../components/HomeComponents/Section11";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, []);
   return (
     <>
       <Section1 />

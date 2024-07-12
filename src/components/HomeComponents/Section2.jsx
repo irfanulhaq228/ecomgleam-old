@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img from "../../assets/imgs/home-sec-2-img.png";
 
 import svg1 from "../../assets/svgs/home-sec-2-svg-1.svg";
@@ -24,9 +25,11 @@ const Section2 = () => {
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               Amazon Full Account Management Services
             </p>
-            <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2">
-              Explore Services
-            </button>
+            <Link to={"/services"}>
+              <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2">
+                Explore Services
+              </button>
+            </Link>
           </div>
           <div className="bg-white rounded-[12px] w-[95%] sm:w-[300px] flex flex-col items-center py-[25px] px-2 sm:px-[30px]">
             <img src={svg2} className="w-[100px] h-[100px]" />
