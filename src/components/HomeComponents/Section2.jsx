@@ -25,7 +25,7 @@ const Section2 = () => {
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               Amazon Full Account Management Services
             </p>
-            <Link to={"/services"}>
+            <Link to={"/amazon-full-account-management-services"}>
               <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2">
                 Explore Services
               </button>
@@ -36,9 +36,11 @@ const Section2 = () => {
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2 px-10">
               Online Arbitrage & Retail Services
             </p>
+            <Link to={"/online-arbitrage-and-retail-services"}>
             <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2">
               Explore Services
             </button>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-[25px] justify-center items-center sm:items-start">

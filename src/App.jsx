@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 
 import Home from "./pages/home";
 import Services from "./pages/services";
+import RetailService from "./pages/retail-services";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/services" element={<Services />} />
+      <Route path="/amazon-full-account-management-services" element={<Services />} />
+      <Route path="/online-arbitrage-and-retail-services" element={<RetailService />} />
     </Routes>
     <Footer />
     </>

@@ -31,7 +31,7 @@ body {
   cursor: pointer;
 }
 
-/* ======================== services section 2 animation ======================== */
+/* ======================== services section 2 ======================== */
 
 .service-card-show{
   width: 0;
@@ -41,4 +41,109 @@ body {
 
 .service-card:hover .service-card-show{
   width: 100%;
+}
+
+/* ======================== services section 3 ======================== */
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: black;
+  z-index: 1;
+  scale: 1.5;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover {
+  color: black;
+}
+
+/* ======================== services section 4 animation ======================== */
+
+.circle-box {
+  background-color: white;
+  width: 140px;
+  height: 140px;
+  border: 5px solid var(--main-color);
+  border-radius: 140px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-box-desc1 {
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 0px;
+  padding-left: 0px;
+  text-transform: capitalize;
+  padding-right: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.circle-box-desc1-show {
+  background-color: white;
+  position: absolute;
+  left: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 400px;
+  padding-left: 150px;
+  text-transform: capitalize;
+  padding-right: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.circle-box-desc2 {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 0px;
+  padding-right: 0px;
+  text-transform: capitalize;
+  padding-left: 30px;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+.circle-box-desc2-show {
+  background-color: white;
+  position: absolute;
+  right: 10px;
+  height: 85px;
+  border-radius: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 400px;
+  padding-right: 150px;
+  text-transform: capitalize;
+  padding-left: 30px;
+  transition: all;
+  transition-duration: 0.5s;
 }
