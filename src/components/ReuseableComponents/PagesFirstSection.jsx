@@ -3,7 +3,7 @@ import React from "react";
 const PagesFirstSection = ({ subheading, content, heading }) => {
   return (
     <div className="py-[40px] lg:ps-[60px] xl:ps-[90px] lg:pe-[20px] xl:pe-[40px] flex flex-col lg:flex-row justify-center items-center gap-[20px]">
-      <div className="flex-1 lg:max-w-[400px] xl:max-w-[500px] mt-[20px] lg:mt-0 px-[15px] lg:px-0">
+      <div className="flex-1 lg:max-w-[400px] xl:max-w-[530px] mt-[20px] lg:mt-0 px-[15px] lg:px-0">
         <p className="uppercase text-[16px] md:text-[20px] xl:text-[24px] font-[600] lg:font-[700] text-[--main-color] mb-[10px] text-center lg:text-start">
           {subheading}
         </p>

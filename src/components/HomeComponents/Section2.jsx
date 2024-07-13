@@ -37,9 +37,9 @@ const Section2 = () => {
               Online Arbitrage & Retail Services
             </p>
             <Link to={"/online-arbitrage-and-retail-services"}>
-            <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2">
-              Explore Services
-            </button>
+              <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2">
+                Explore Services
+              </button>
             </Link>
           </div>
         </div>
@@ -49,18 +49,22 @@ const Section2 = () => {
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2 px-10">
               Amazon Wholesale FBA Services
             </p>
-            <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2 sm:mt-[38px]">
-              Explore Services
-            </button>
+            <Link to={"/amazon-wholesale-fba-services"}>
+              <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2 sm:mt-[38px]">
+                Explore Services
+              </button>
+            </Link>
           </div>
           <div className="bg-white rounded-[12px] w-[95%] sm:w-[300px] flex flex-col items-center py-[25px] px-[30px]">
             <img src={svg4} className="w-[100px] h-[100px]" />
             <p className="uppercase text-[20px] font-[900] text-center text-[#585858] mt-2">
               3PL and Warehousing Services
             </p>
-            <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2 sm:mt-[38px]">
-              Explore Services
-            </button>
+            <Link to={"/3pl-and-warehousing-services"}>
+              <button className="h-[40px] rounded-full px-[16px] text-white text-[14px] bg-[#b4b4b4] mt-2 sm:mt-[38px]">
+                Explore Services
+              </button>
+            </Link>
           </div>
         </div>
       </div>
