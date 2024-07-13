@@ -51,3 +51,41 @@ export const ServiceSliderData = [
         text: "Seasoned E-commerce Team"
     },
 ];
+
+export const RetailLeftRightCardsData = [
+    {
+        rightImage: false,
+        heading: "Unique Product Hunting",
+        desc: "Quickly Find High-Demand Products With Reliable USA Suppliers And Help With Reseller Certificates."
+    },
+    {
+        rightImage: true,
+        heading: "Streamlined Connections",
+        desc: "Easily Connect With Trusted Brands And Distributors To Secure Quality Products."
+    },
+    {
+        rightImage: false,
+        heading: "Fast Turnover & Payback",
+        desc: "Rapidly start selling and maximize profits with products from top wholesalers."
+    },
+    {
+        rightImage: true,
+        heading: "Simple Exit Strategy",
+        desc: "Minimize expenses and efficiently sell remaining inventory if you exit the business."
+    },
+    {
+        rightImage: false,
+        heading: "Fast Turnover & Payback",
+        desc: "Rapidly start selling and maximize profits with products from top wholesalers."
+    },
+    {
+        rightImage: true,
+        heading: "High Scalability",
+        desc: "Seamlessly scale your business with strategies for increasing product volume and sales growth."
+    },
+    {
+        rightImage: false,
+        heading: "Proven Products",
+        desc: "Access affordable, high-quality products from reputable USA suppliers."
+    },
+];
