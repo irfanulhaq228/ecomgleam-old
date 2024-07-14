@@ -48,7 +48,7 @@ const Section1 = () => {
   return (
     <section
       ref={sectionRef}
-      className="flex flex-col lg:flex-row gap-8 sm:gap-14 lg:gap-10 pt-5 sm:pt-10 items-center lg:items-center justify-center"
+      className="flex flex-col lg:flex-row gap-8 sm:gap-14 lg:gap-10 pt-5 sm:pt-10 items-center lg:items-center justify-center overflow-x-hidden"
     >
       <header
         ref={contentRef}

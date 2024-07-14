@@ -47,7 +47,7 @@ const PagesFirstSection = ({ subheading, content, heading }) => {
   }, []);
 
   return (
-    <div className="py-[40px] lg:ps-[60px] xl:ps-[90px] lg:pe-[20px] xl:pe-[40px] flex flex-col lg:flex-row justify-center items-center gap-[20px]">
+    <div className="py-[40px] lg:ps-[60px] xl:ps-[90px] lg:pe-[20px] xl:pe-[40px] flex flex-col lg:flex-row justify-center items-center gap-[20px] overflow-x-hidden">
       <div
         ref={leftDivRef}
         className="flex-1 lg:max-w-[400px] xl:max-w-[530px] mt-[20px] lg:mt-0 px-[15px] lg:px-0 opacity-0"
