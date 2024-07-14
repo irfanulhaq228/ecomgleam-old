@@ -126,8 +126,8 @@ const Navbar = () => {
       </header>
 
       <section
-        className={`bg-[#000000c2] fixed top-0 z-[9999] w-full h-full flex flex-col justify-center px-4 gap-[50px] transition-all duration-700 ${
-          !showNav ? "left-[-100vw]" : "left-0"
+        className={`bg-[#000000c2] fixed top-0 z-[9999] w-[100vw] h-full flex flex-col justify-center px-4 gap-[50px] transition-all duration-700 ${
+          !showNav ? "left-[-100%]" : "left-0"
         } transition-all duration-1000`}
       >
         <button
