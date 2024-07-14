@@ -63,7 +63,7 @@ const Section4 = () => {
     }
   }, [desc5]);
   return (
-    <div className="mt-[20px] bg-[--main-color] text-white py-[50px] flex flex-col items-center gap-[30px]">
+    <div className="mt-[20px] bg-[--main-color] text-white py-[50px] hidden md:flex flex-col items-center gap-[30px]">
       <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center uppercase text-white mb-[15px] px-[15px] md:w-[600px] lg:w-[750px]">
         With our 3PL solutions, business owners increase their profits
       </p>

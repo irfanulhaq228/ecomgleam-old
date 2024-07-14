@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import Section1 from "../../components/HomeComponents/Section1";
 import Section2 from "../../components/HomeComponents/Section2";
@@ -18,6 +19,18 @@ const Home = () => {
   }, []);
   return (
     <>
+      <Helmet>
+        <title>Ecomgleam - Home</title>
+        <meta
+          name="description"
+          content="EcomGleam offers efficient ecommerce solutions to optimize performance and drive growth. Collaborate with us to leverage expert strategies and cutting-edge technology tailored for your online success."
+        />
+        <meta
+          name="keywords"
+          content="ecommerce, ecommerce solutions, online business, ecommerce management, EcomGleam"
+        />
+      </Helmet>
+
       <Section1 />
       <Section2 />
       <Section3 />

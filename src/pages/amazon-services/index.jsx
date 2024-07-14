@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 import PagesFirstSection from "../../components/ReuseableComponents/PagesFirstSection";
 import Section2 from "../../components/AmazonServices/Section2";
@@ -14,25 +15,38 @@ const AmazonServices = () => {
     window.scrollTo({ top: 0 });
   }, []);
   return (
-    <div>
-      <PagesFirstSection
-        subheading={"Amazon Private Label and Brand Management Services"}
-        heading={"Maximize Your Impact in E-commerce sphere with"}
-        content={
-          "Maximize your Amazon business with our expert Private Label and Brand Management Services, ensuring standout performance and customer loyalty in a competitive market."
-        }
-      />
-      <div className="flex justify-center mb-[20px]">
-        <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center uppercase text-[--heading-color] mb-[15px] px-[15px] md:w-[600px] lg:w-[750px]">
-          What Includes in Our Services
-        </p>
+    <>
+      <Helmet>
+        <title>Ecomgleam - Amazon Full Account Management Services</title>
+        <meta
+          name="description"
+          content="EcomGleam offers efficient ecommerce solutions to optimize performance and drive growth. Collaborate with us to leverage expert strategies and cutting-edge technology tailored for your online success."
+        />
+        <meta
+          name="keywords"
+          content="ecommerce, ecommerce solutions, online business, ecommerce management, EcomGleam"
+        />
+      </Helmet>
+      <div>
+        <PagesFirstSection
+          subheading={"Amazon Private Label and Brand Management Services"}
+          heading={"Maximize Your Impact in E-commerce sphere with"}
+          content={
+            "Maximize your Amazon business with our expert Private Label and Brand Management Services, ensuring standout performance and customer loyalty in a competitive market."
+          }
+        />
+        <div className="flex justify-center mb-[20px]">
+          <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center uppercase text-[--heading-color] mb-[15px] px-[15px] md:w-[600px] lg:w-[750px]">
+            What Includes in Our Services
+          </p>
+        </div>
+        <Section2 />
+        <LeftRightCards heading={"Why Choose US"} data={AmazonServiceData} />
+        <Section5 />
+        <TopBrandSection />
+        <LeaveUsMessageSection />
       </div>
-      <Section2 />
-      <LeftRightCards heading={"Why Choose US"} data={AmazonServiceData} />
-      <Section5 />
-      <TopBrandSection />
-      <LeaveUsMessageSection />
-    </div>
+    </>
   );
 };
 
