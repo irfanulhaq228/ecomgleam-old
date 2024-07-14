@@ -35,9 +35,9 @@ const Navbar = () => {
           <p className="p-2 cursor-pointer hover:bg-[#ffffff27] rounded-[5px]">
             Warehouse
           </p>
-          <p className="p-2 cursor-pointer hover:bg-[#ffffff27] rounded-[5px]">
+          <Link to={"/contact-us"} className="p-2 cursor-pointer hover:bg-[#ffffff27] rounded-[5px]">
             Contact Us
-          </p>
+          </Link>
         </div>
         <div className="hidden lg:flex flex-col gap-1.5 justify-center text-[15px]">
           <p className="font-[700] flex items-center gap-2 text-white">

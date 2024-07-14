@@ -3,10 +3,11 @@ import React, { useEffect } from "react";
 import PagesFirstSection from "../../components/ReuseableComponents/PagesFirstSection";
 import Section2 from "../../components/AmazonServices/Section2";
 import LeftRightCards from "../../components/ReuseableComponents/LeftRightCards";
-
-import { AmazonServiceData } from "../../assets/data";
+import Section5 from "../../components/AmazonServices/Section5";
 import TopBrandSection from "../../components/ReuseableComponents/TopBrandsSection";
 import LeaveUsMessageSection from "../../components/ReuseableComponents/LeaveUsMessageSection";
+
+import { AmazonServiceData } from "../../assets/data";
 
 const AmazonServices = () => {
   useEffect(() => {
@@ -28,6 +29,7 @@ const AmazonServices = () => {
       </div>
       <Section2 />
       <LeftRightCards heading={"Why Choose US"} data={AmazonServiceData} />
+      <Section5 />
       <TopBrandSection />
       <LeaveUsMessageSection />
     </div>
