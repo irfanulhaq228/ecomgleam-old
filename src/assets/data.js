@@ -155,3 +155,34 @@ export const AmazonServiceData = [
         desc: "Our success stories speak for themselves. We have helped numerous brands achieve significant growth and establish a strong presence on Amazon."
     }
 ];
+
+export const AboutUsData = [
+    {
+        rightImage: false,
+        heading: "Crafted Strategies for Your Success",
+        desc: "At Ecom Gleam, we believe in empowering our clients with knowledge. Through regular webinars, workshops, and comprehensive guides, we provide you with the tools and information needed to make informed decisions and grow your business."
+    },
+    {
+        rightImage: true,
+        heading: "Fusing Innovation with Precision",
+        desc: "In an industry that's constantly evolving, staying ahead of the curve is crucial. We integrate the latest technologies and tools into our services, providing you with innovative solutions that drive efficiency and growth. Our tech-savvy approach ensures you're always one step ahead of the competition"
+    },
+    {
+        rightImage: false,
+        heading: "Empowered by Insightful Analytics",
+        desc: "We believe in the power of data. Our team leverages advanced analytics and insights to inform our strategies and decision-making processes. By understanding market trends and consumer behavior, we help you make informed choices that enhance your business performance."
+    },
+];
+
+export const AboutUsData2 = [
+    {
+        rightImage: false,
+        heading: "Knowledge Sharing",
+        desc: "At Ecom Gleam, we believe in empowering our clients with knowledge. Through regular webinars, workshops, and comprehensive guides, we provide you with the tools and information needed to make informed decisions and grow your business."
+    },
+    {
+        rightImage: true,
+        heading: "Continuous Support",
+        desc: "Our commitment to your success doesn't end with a single transaction. We offer continuous support, providing you with ongoing assistance and guidance. Whether it's troubleshooting an issue or planning your next move, we're here to support you every step of the way."
+    }
+];

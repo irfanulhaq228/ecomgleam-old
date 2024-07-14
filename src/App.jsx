@@ -10,6 +10,7 @@ import Services from "./pages/services";
 import AmazonServices from "./pages/amazon-services";
 import RetailService from "./pages/retail-services";
 import ContactUs from "./pages/contact-us";
+import AboutUs from "./pages/about-us";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/amazon-wholesale-fba-services" element={<RetailService />} />
       <Route path="/3pl-and-warehousing-services" element={<Services />} />
       <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/about-us" element={<AboutUs />} />
     </Routes>
     <Footer />
     </>

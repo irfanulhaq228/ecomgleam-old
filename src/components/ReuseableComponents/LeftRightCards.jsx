@@ -19,7 +19,7 @@ const LeftRightCards = ({ data, heading, coloredHeading }) => {
                 <p className="text-[22px] sm:text-[24px] font-[700] text-[--heading-color]">
                   {item?.heading}
                 </p>
-                <p className="text-[18px] sm:text-[22px] leading-6 sm:leading-7 capitalize">
+                <p className="text-[17px] sm:text-[20px] leading-6 sm:leading-7 capitalize">
                   {item?.desc}
                 </p>
               </div>
@@ -33,7 +33,7 @@ const LeftRightCards = ({ data, heading, coloredHeading }) => {
                 <p className="text-[22px] sm:text-[24px] font-[700] text-[--heading-color] lg:text-end">
                   {item?.heading}
                 </p>
-                <p className="text-[18px] sm:text-[22px] leading-6 sm:leading-7 capitalize lg:text-end">
+                <p className="text-[17px] sm:text-[20px] leading-6 sm:leading-7 capitalize lg:text-end">
                   {item?.desc}
                 </p>
               </div>

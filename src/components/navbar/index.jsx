@@ -42,13 +42,14 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <p
+            <Link
+              to="/about-us"
               className={`p-2 cursor-pointer hover:bg-[#ffffff27] rounded-[5px] ${
                 selectedTab === "/about-us" && "bg-[#ffffff27]"
               }`}
             >
               About Us
-            </p>
+            </Link>
             <Link
               to={"/contact-us"}
               className={`p-2 cursor-pointer hover:bg-[#ffffff27] rounded-[5px] ${
@@ -86,7 +87,7 @@ const Navbar = () => {
         </button>
         <div className="w-[200px] text-white flex flex-col gap-[5px]">
           <p
-            className={`flex items-center gap-[10px] text-[18px] font-[600] cursor-pointer w-[max-content] hover:bg-[#ffffff69] px-3 h-[40px] rounded-[5px] ${
+            className={`flex items-center gap-[10px] text-[16px] font-[600] cursor-pointer w-[max-content] hover:bg-[#ffffff69] px-3 h-[40px] rounded-[5px] ${
               selectedTab === "/" && "bg-[#ffffff69]"
             }`}
             onClick={() => {
@@ -98,7 +99,7 @@ const Navbar = () => {
             Home
           </p>
           <p
-            className={`flex items-center gap-[10px] text-[18px] font-[600] cursor-pointer w-[max-content] hover:bg-[#ffffff69] px-3 h-[40px] rounded-[5px] ${
+            className={`flex items-center gap-[10px] text-[16px] font-[600] cursor-pointer w-[max-content] hover:bg-[#ffffff69] px-3 h-[40px] rounded-[5px] ${
               selectedTab === "/about-us" && "bg-[#ffffff69]"
             }`}
             onClick={() => {
@@ -110,7 +111,7 @@ const Navbar = () => {
             About Us
           </p>
           <p
-            className={`flex items-center gap-[10px] text-[18px] font-[600] cursor-pointer w-[max-content] hover:bg-[#ffffff69] px-3 h-[40px] rounded-[5px] ${
+            className={`flex items-center gap-[10px] text-[16px] font-[600] cursor-pointer w-[max-content] hover:bg-[#ffffff69] px-3 h-[40px] rounded-[5px] ${
               selectedTab === "/contact-us" && "bg-[#ffffff69]"
             }`}
             onClick={() => {
@@ -124,11 +125,11 @@ const Navbar = () => {
         </div>
         <hr />
         <div className="w-[200px] text-white flex flex-col gap-[5px] ms-[20px]">
-          <div className="flex items-center gap-[10px] text-[18px] font-[600]">
+          <div className="flex items-center gap-[10px] text-[16px] font-[600]">
             <img src={PhoneCall} />
             +1 (215) 305-8197
           </div>
-          <div className="flex gap-[10px] text-[18px] font-[600]">
+          <div className="flex gap-[10px] text-[16px] font-[600]">
             <img src={Mail} className="mt-[-22px]" />
             <p className="flex flex-col">
               <span>info@ecomgleam.com</span>
