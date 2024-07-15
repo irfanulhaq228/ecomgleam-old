@@ -15,7 +15,7 @@ const Section3 = () => {
           <p className="uppercase text-[25px] sm:text-[33px] lg:text-[37px] xl:text-[48px] font-[900] text-[--heading-color] text-center leading-[30px] sm:leading-[40px] xl:leading-[50px]">
             Ready to grow your revenue?
           </p>
-          <Link to={"/contact-us"} className="h-[40px] rounded-full px-[16px] text-white text-[14px] font-[600] bg-black">
+          <Link to={"/contact-us"} className="h-[40px] rounded-full px-[16px] text-white text-[14px] font-[600] bg-black flex justify-center items-center">
             Speak to ECom Gleam
           </Link>
         </div>
