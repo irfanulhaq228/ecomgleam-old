@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import img from "../../assets/imgs/Home-sec-6-img.png";
 import phoneIcon from "../../assets/svgs/Phone-call.svg";
@@ -7,6 +8,7 @@ import mailIcon from "../../assets/svgs/Mail.svg";
 import line from "../../assets/imgs/Home-sec-6-line.png";
 
 const Section6 = () => {
+  const navigate = useNavigate();
   return (
     <div className="bg-[--dark-color] py-[40px] flex flex-col items-center">
       <p className="text-[25px] sm:text-[30px] md:text-[40px] font-[700] text-center uppercase text-white max-w-[600px] px-[15px]">
@@ -26,7 +28,11 @@ const Section6 = () => {
             </p>
           </div>
         </div>
-        <img src={img} className="max-w-[650px] w-[90%] md:w-auto" />
+        <img
+          src={img}
+          className="max-w-[650px] w-[90%] md:w-auto"
+          onClick={() => navigate("/contact-us")}
+        />
       </div>
       <img src={line} className="hidden xl:block w-[450px] mt-[-70px]" />
     </div>
